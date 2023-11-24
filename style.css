@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainRoot{
+    display: flex;
+    justify-content: center;
+}
+
+#babyRoot{
+    background-color: rgb(143, 203, 255);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 7px black;
+}
