@@ -11,7 +11,7 @@ function rgbToHex() {
     let input3 = parseInt(document.getElementById("blue").value);
 
     function isHexRes(color) {
-
+        // using base 16 to get hexadecimal
         let hexRes = color.toString(16);
 
         return hexRes.length == 1 ? "0" + hexRes : hexRes;
@@ -28,3 +28,9 @@ function rgbToHex() {
 }
 
 btn.addEventListener('click', rgbToHex);
+
+
+// let num = 15;
+// let text = num.toString(16);
+
+// console.log(text);
